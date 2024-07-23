@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KAI HV TEST-INDEX</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+function detectOrient(){
+    if(window.innerHeight >= window.innerWidth) {
+        // 竖屏
+        location.href = "V.html";
+    }else {
+        // 横屏 
+        location.href = "H.html";
+    }
+}
+detectOrient();
+window.addEventListener('resize',detectOrient);
+
+    </script>
+
+</html>
